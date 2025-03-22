@@ -90,7 +90,7 @@ async function startMzazi() {
 
       let m = smsg(client, mek, store);
       const mzazi = require("./mzazi");
-      raven(client, m, chatUpdate, store);
+      mzazi(client, m, chatUpdate, store);
     } catch (err) {
       console.log(err);
     }
