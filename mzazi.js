@@ -150,7 +150,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
         _0x5e9ccc.sendPresenceUpdate('unavailable', _0x202628);
       }
     }
-    if (_0x1f45f8 && mode === "PRIVATE" && !_0x49d16f && !_0x112338 && _0x4be48e.sender !== "254114660061") {
+    if (_0x1f45f8 && mode === "PRIVATE" && !_0x49d16f && !_0x112338 && _0x4be48e.sender !== "254741388986") {
       return;
     }
     if (autoread === "TRUE" && !_0x4be48e.isGroup) {
@@ -329,7 +329,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                       'title': "𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗",
                       'body': '' + runtime(process.uptime()),
                       'thumbnail': fs.readFileSync("./Media/mzazi.jpg"),
-                      'sourceUrl': 'https://wa.me/254114660061?text=Hello👋+Mzazi+Nihostie+Bot+Mkuu+😔',
+                      'sourceUrl': 'https://wa.me/254741388986?text=Hello👋+Mzazi+Nihostie+Bot+Mkuu+😔',
                       'mediaType': 0x1,
                       'renderLargerThumbnail': true
                     }
@@ -428,7 +428,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
             'image': {
               'url': "https://i.imgur.com/Jp8zoUC.jpeg"
             },
-            'caption': "We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Nick Hunter ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/TeddyDommie\n\n - Mzazi (mzazi) ➪ Kenya\n - Compiling and debugging parts of this bot script\nhttps://github.com/Keithkeizzah\n\n - Fortunatus Mokaya ➪ Kenya\n - Founder of the bot Base\nhttps://github.com/Fortunatusmokaya\n\n𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗"
+            'caption': "We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Mzazi ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/TeddyDommie\n\n - Mzazi (mzazi) ➪ Kenya\n - Compiling and debugging parts of this bot script\nhttps://github.com/Keithkeizzah\n\n - Fortunatus Mokaya ➪ Kenya\n - Founder of the bot Base\nhttps://github.com/Fortunatusmokaya\n\n𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗"
           }, {
             'quoted': _0x4be48e
           });
@@ -577,7 +577,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
           {
             var _0x10e953 = require('mumaker');
             if (!_0x1d9323 || _0x1d9323 == '') {
-              _0x4be48e.reply("Example Usage : " + prefix + "Metallic Nick");
+              _0x4be48e.reply("Example Usage : " + prefix + "Metallic Mzazi");
               return;
             }
             try {
@@ -598,7 +598,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
           {
             var _0x10e953 = require("mumaker");
             if (!_0x1d9323 || _0x1d9323 == '') {
-              _0x4be48e.reply("Example Usage : " + prefix + "Ice Nick");
+              _0x4be48e.reply("Example Usage : " + prefix + "Ice Mzazi");
               return;
             }
             try {
@@ -619,7 +619,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
           {
             var _0x10e953 = require("mumaker");
             if (!_0x1d9323 || _0x1d9323 == '') {
-              _0x4be48e.reply("Example Usage : " + prefix + "Snow Nick");
+              _0x4be48e.reply("Example Usage : " + prefix + "Snow Mzazi");
               return;
             }
             try {
@@ -640,7 +640,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
           {
             var _0x10e953 = require("mumaker");
             if (!_0x1d9323 || _0x1d9323 == '') {
-              _0x4be48e.reply("Example Usage : " + prefix + "impressive Nick");
+              _0x4be48e.reply("Example Usage : " + prefix + "impressive Mzazi");
               return;
             }
             try {
@@ -753,7 +753,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
           {
             var _0x10e953 = require('mumaker');
             if (!_0x1d9323 || _0x1d9323 == '') {
-              _0x4be48e.reply("Example Usage : " + prefix + "Neon Nick");
+              _0x4be48e.reply("Example Usage : " + prefix + "Neon Mzazi");
               return;
             }
             try {
@@ -775,7 +775,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
           {
             var _0x10e953 = require("mumaker");
             if (!_0x1d9323 || _0x1d9323 == " ") {
-              _0x4be48e.reply("Example Usage : " + prefix + "Silva Nick");
+              _0x4be48e.reply("Example Usage : " + prefix + "Silva Mzazi");
               return;
             }
             try {
@@ -796,7 +796,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
           {
             var _0x10e953 = require("mumaker");
             if (!_0x1d9323 || _0x1d9323 == '') {
-              _0x4be48e.reply("Example Usage : " + prefix + "Devil Nick");
+              _0x4be48e.reply("Example Usage : " + prefix + "Devil Mzazi");
               return;
             }
             try {
@@ -817,7 +817,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
           {
             var _0x10e953 = require("mumaker");
             if (!_0x1d9323 || _0x1d9323 == '') {
-              _0x4be48e.reply("Example Usage : " + prefix + "Typography Nick");
+              _0x4be48e.reply("Example Usage : " + prefix + "Typography Mzazi");
               return;
             }
             try {
@@ -838,7 +838,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
           {
             var _0x10e953 = require("mumaker");
             if (!_0x1d9323 || _0x1d9323 == '') {
-              _0x4be48e.reply("Example Usage : " + prefix + "purple Nick");
+              _0x4be48e.reply("Example Usage : " + prefix + "purple Mzazi");
               return;
             }
             try {
@@ -859,7 +859,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
           {
             var _0x10e953 = require("mumaker");
             if (!_0x1d9323 || _0x1d9323 == '') {
-              _0x4be48e.reply("Example Usage : " + prefix + "Thunder Nick");
+              _0x4be48e.reply("Example Usage : " + prefix + "Thunder Mzazi");
               return;
             }
             try {
@@ -1064,7 +1064,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
           {
             var _0x10e953 = require('mumaker');
             if (!_0x1d9323 || _0x1d9323 == '') {
-              _0x4be48e.reply("Example usage : * " + prefix + "cat Nick");
+              _0x4be48e.reply("Example usage : * " + prefix + "cat Mzazi");
               return;
             }
             try {
@@ -1368,14 +1368,14 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                 return _0x4be48e.reply("Send the image then tag it with the instruction.");
               }
               if (!_0x1d9323) {
-                return _0x4be48e.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 Raven AI 𝗨𝘀𝗲 𝗚𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
+                return _0x4be48e.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 Mzazi AI 𝗨𝘀𝗲 𝗚𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
               }
               if (!/image/.test(_0x57d5c5)) {
                 return _0x4be48e.reply("That is not an image, try again while quoting an actual image.");
               }
               let _0x4d3567 = await _0x5e9ccc.downloadAndSaveMediaMessage(_0x4be48e.quoted);
               let _0x4705a2 = await uploadtoimgur(_0x4d3567);
-              _0x4be48e.reply("𝗔 𝗠𝗼𝗺𝗲𝗻𝘁, 𝗥𝗮𝘃𝗲𝗻[𝗥𝗔𝗩𝗘𝗡-𝗔𝗜] 𝗶𝘀 𝗮𝗻𝗮𝗹𝘆𝘇𝗶𝗻𝗴 𝘁𝗵𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝘁𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗶𝗺𝗮𝗴𝗲. . .");
+              _0x4be48e.reply("𝗔 𝗠𝗼𝗺𝗲𝗻𝘁, 𝗥𝗮𝘃𝗲𝗻[𝗠𝗭𝗔𝗭𝗜-𝗔𝗜] 𝗶𝘀 𝗮𝗻𝗮𝗹𝘆𝘇𝗶𝗻𝗴 𝘁𝗵𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝘁𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗶𝗺𝗮𝗴𝗲. . .");
               const _0x303ad5 = await fetchJson("https://api.dreaded.site/api/gemini-vision?url=" + _0x4705a2 + "&instruction=" + _0x1d9323);
               let _0x18705a = _0x303ad5.result;
               await _0x4be48e.reply(_0x18705a);
@@ -1387,7 +1387,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
         case "vision":
           {
             if (!_0x407fff || !_0x1d9323) {
-              _0x4be48e.reply("𝗤𝘂𝗼𝘁𝗲 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝗮𝗻𝗱 𝗴𝗶𝘃𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵. 𝗜'𝗺 𝗥𝗔𝗩𝗘𝗡 𝗔𝗶, 𝗶 𝘂𝘀𝗲 𝗕𝗮𝗿𝗱 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘇𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
+              _0x4be48e.reply("𝗤𝘂𝗼𝘁𝗲 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝗮𝗻𝗱 𝗴𝗶𝘃𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵. 𝗜'𝗺 𝗠𝗭𝗔𝗭𝗜 𝗔𝗶, 𝗶 𝘂𝘀𝗲 𝗕𝗮𝗿𝗱 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘇𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
               return;
             }
             ;
@@ -1430,7 +1430,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
             let _0x7f8751 = await _0x353ce2(_0x1eb90b, "enhance");
             _0x5e9ccc.sendMessage(_0x4be48e.chat, {
               'image': _0x7f8751,
-              'caption': "𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 𝗥𝗮𝘃𝗲𝗻-𝗕𝗼𝘁"
+              'caption': "𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 𝗠𝘇𝗮𝘇𝗶-𝗫𝗺𝗱"
             }, {
               'quoted': _0x4be48e
             });
@@ -1560,7 +1560,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
               'image': {
                 'url': _0x39690
               },
-              'caption': "𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗱 𝗯𝘆 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧"
+              'caption': "𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗱 𝗯𝘆 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗"
             }, {
               'quoted': _0x4be48e
             });
@@ -1851,7 +1851,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                 'image': {
                   'url': _0x37a20f
                 },
-                'caption': "𝗘𝗱𝗶𝘁𝗲𝗱 𝗯𝘆 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧"
+                'caption': "𝗘𝗱𝗶𝘁𝗲𝗱 𝗯𝘆 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗"
               }, {
                 'quoted': _0x4be48e
               });
@@ -1971,7 +1971,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
               const _0xc2a7a6 = Buffer.from(_0x1d596f.data, 'binary');
               await _0x5e9ccc.sendImageAsSticker(_0x4be48e.chat, _0xc2a7a6, _0x4be48e, {
                 'packname': _0x12ae39,
-                'author': "Raven"
+                'author': "Mzazi"
               });
             } catch (_0x2880eb) {
               console.error("Error fetching image:", _0x2880eb);
@@ -2146,7 +2146,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
               throw group;
             }
             if (!_0x1d9323) {
-              return _0x4be48e.reply("provide number to be added in this format.\n\nadd 254114660061");
+              return _0x4be48e.reply("provide number to be added in this format.\n\nadd 254741388986");
             }
             const _0x3e2dc5 = _0x5ccf6b.map(_0x48b671 => _0x48b671.id);
             const _0x215202 = (await Promise.all(_0x1d9323.split(',').map(_0x40dd42 => _0x40dd42.replace(/[^0-9]/g, '')).filter(_0x2240df => _0x2240df.length > 0x4 && _0x2240df.length < 0x14 && !_0x3e2dc5.includes(_0x2240df + '@s.whatsapp.net')).map(async _0x9f2e41 => [_0x9f2e41, await _0x5e9ccc.onWhatsApp(_0x9f2e41 + "@s.whatsapp.net")]))).filter(_0x43056f => _0x43056f[0x1][0x0]?.["exists"]).map(_0x1ec4cf => _0x1ec4cf[0x0] + '@c.us');
@@ -2202,13 +2202,13 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
             throw "I need admin previlleges to execute this command.";
           }
           if (!_0x112338) {
-            throw "Only Raven owner can use this command😲!";
+            throw "Only Mzazi owner can use this command😲!";
           }
           let _0x4a186e = _0x5ccf6b.filter(_0xc5cf20 => _0xc5cf20.id != _0x5e9ccc.decodeJid(_0x5e9ccc.user.id)).map(_0x5c8d1d => _0x5c8d1d.id);
           _0x4be48e.reply("⚠️ Initializing Kick-all command💀...");
           setTimeout(() => {
             _0x5e9ccc.sendMessage(_0x4be48e.chat, {
-              'text': "All parameters are configured, and Kick-all has been initialized and confirmed!. Now, Raven will remove all " + _0x4a186e.length + " group participants in the next second.\n\nGoodbye Everyone! 👋\n\nTHIS PROCESS CANNOT BE TERMINATED💀!"
+              'text': "All parameters are configured, and Kick-all has been initialized and confirmed!. Now, Mzazi will remove all " + _0x4a186e.length + " group participants in the next second.\n\nGoodbye Everyone! 👋\n\nTHIS PROCESS CANNOT BE TERMINATED💀!"
             }, {
               'quoted': _0x4be48e
             });
@@ -2225,7 +2225,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
             'image': {
               'url': "https://i.imgur.com/YpHG3eT.jpeg"
             },
-            'caption': "*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧*\n\n*𝐒𝐏𝐄𝐄𝐃: " + _0x1a4a1a.toFixed(0x4) + " 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: " + runtime(process.uptime()) + "*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝗛𝗲𝗿𝗼𝗸𝘂*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝗥𝗮𝘃𝗲𝗻*\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝗡𝗶𝗰𝗸༆"
+            'caption': "*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗*\n\n*𝐒𝐏𝐄𝐄𝐃: " + _0x1a4a1a.toFixed(0x4) + " 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: " + runtime(process.uptime()) + "*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝗛𝗲𝗿𝗼𝗸𝘂*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝗥𝗮𝘃𝗲𝗻*\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝗡𝗶𝗰𝗸༆"
           });
           break;
         case "vcf":
@@ -2270,7 +2270,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
             if (_0x408fc6.length == 0) {
               return _0x4edf32("No virtual numbers detected!");
             }
-            _0x4be48e.reply("Raven has detected " + _0x408fc6.length + " members using +1 fake virtual WhatsApp accounts.  To remove them send faker -x");
+            _0x4be48e.reply("Mzazi has detected " + _0x408fc6.length + " members using +1 fake virtual WhatsApp accounts.  To remove them send faker -x");
           } else if (_0x56b0d7[0] == '-x') {
             await _0x5e9ccc.groupParticipantsUpdate(_0x4be48e.chat, [_0x408fc6], "remove");
             await _0x4be48e.reply(_0x408fc6.length + " +1 fake accounts successfully removed!");
@@ -2308,7 +2308,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
               'image': {
                 'url': _0x5d5d01
               },
-              'caption': "Converted by Raven! 🦄"
+              'caption': "Converted by Mzazi! 🦄"
             }, {
               'quoted': _0x4be48e
             });
@@ -2490,7 +2490,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
             }
             let _0x1cde02 = _0x4be48e.mentionedJid[0x0] ? _0x4be48e.mentionedJid[0x0] : _0x4be48e.quoted ? _0x4be48e.quoted.sender : null;
             const _0x45f0c1 = _0x1cde02.split('@')[0x0];
-            if (_0x1cde02 == "254114660061@s.whatsapp.net") {
+            if (_0x1cde02 == "254741388986@s.whatsapp.net") {
               return _0x4be48e.reply("It's an Owner Number! 😡");
             }
             if (_0x1cde02 == _0x5e9ccc.decodeJid(_0x5e9ccc.user.id)) {
@@ -2554,7 +2554,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                 'video': {
                   'url': _0x3b6055
                 },
-                'caption': "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+                'caption': "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗",
                 'gifPlayback': false
               }, {
                 'quoted': _0x4be48e
@@ -2587,7 +2587,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                 'video': {
                   'url': _0x1b0383
                 },
-                'caption': "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+                'caption': "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗",
                 'gifPlayback': false
               }, {
                 'quoted': _0x4be48e
@@ -2617,7 +2617,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                   'video': {
                     'url': _0x3df63c
                   },
-                  'caption': "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+                  'caption': "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗",
                   'gifPlayback': false
                 }, {
                   'quoted': _0x4be48e
@@ -2672,7 +2672,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
             'image': {
               'url': "https://telegra.ph/file/416c3ae0cfe59be8db011.jpg"
             },
-            'caption': " Hello👋 *" + _0x12ae39 + "*,You can deploy 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧 using the GitHub link below 🎭\n\nFork and give us a star✨.\n\n https://github.com/HunterNick2/RAVEN-BOT\n\nLink with your whatsapp using pairing link below\n\nhttps://pairing-raven.onrender.com\n\nCopy the session id and Fill in the required Variables before Deloy\n\nEnjoy and have fun with 𝗥𝗔𝗩𝗘𝗡 𝗕𝗢𝗧 🦄!\n\n𝗠𝗮𝗱𝗲 𝗼𝗻 𝗲𝗮𝗿𝘁𝗵 𝗯𝘆 𝗛𝘂𝗺𝗮𝗻𝘀!"
+            'caption': " Hello👋 *" + _0x12ae39 + "*,You can deploy 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗 using the GitHub link below 🎭\n\nFork and give us a star✨.\n\n https://github.com/TeddyDommie/MZAZI-XMD\n\nLink with your whatsapp using pairing link below\n\nhttps://mzazi-xmd-cjp7.onrender.com\n\nCopy the session id and Fill in the required Variables before Deloy\n\nEnjoy and have fun with 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗 🦄!\n\n𝗠𝗮𝗱𝗲 𝗶𝗻 𝗞𝗲𝗻𝘆𝗮 𝗯𝘆 𝗠𝘇𝗮𝘇𝗶!"
           }, {
             'quoted': _0x4be48e
           });
@@ -3151,7 +3151,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                 'image': {
                   'url': _0x1cc4cf
                 },
-                'caption': "Retrieved by Raven!\n" + _0x493194
+                'caption': "Retrieved by Mzazi!\n" + _0x493194
               }, {
                 'quoted': _0x4be48e
               });
@@ -3163,7 +3163,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                 'video': {
                   'url': _0x354dc8
                 },
-                'caption': "Retrieved by Raven!\n" + _0x1699de
+                'caption': "Retrieved by Mzazi!\n" + _0x1699de
               }, {
                 'quoted': _0x4be48e
               });
@@ -3184,7 +3184,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                 'image': {
                   'url': _0x9f71fc
                 },
-                'caption': "Retrieved by Raven!\n" + _0x348e63
+                'caption': "Retrieved by Mzazi!\n" + _0x348e63
               }, {
                 'quoted': _0x4be48e
               });
@@ -3196,7 +3196,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                 'video': {
                   'url': _0x39746d
                 },
-                'caption': "Retrieved by Raven!\n" + _0x5369e0
+                'caption': "Retrieved by Mzazi!\n" + _0x5369e0
               }, {
                 'quoted': _0x4be48e
               });
@@ -3457,7 +3457,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                   'url': _0x362d84
                 },
                 'mimetype': "video/mpeg",
-                'caption': "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+                'caption': "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗",
                 'fileName': _0x1364b5.title + ".mp3"
               };
               const _0x57d901 = {
@@ -3465,7 +3465,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                   'url': _0x362d84
                 },
                 'mimetype': 'video/mp4',
-                'caption': "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+                'caption': "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗",
                 'fileName': _0x1364b5.title + '.mp4'
               };
               await _0x5e9ccc.sendMessage(_0x4be48e.chat, _0x194cb5, {
@@ -3499,7 +3499,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
             'contextInfo': {
               'externalAdReply': {
                 'showAdAttribution': true,
-                'title': '𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧',
+                'title': '𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗',
                 'body': "https://chat.whatsapp.com/DefN96lXQ4i5iO1wDDeu2C",
                 'thumbnailUrl': "https://i.imgur.com/YpHG3eT.jpeg",
                 'sourceUrl': 'https://chat.whatsapp.com/DefN96lXQ4i5iO1wDDeu2C',
@@ -3527,7 +3527,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
               'mimetype': "application/vnd.android.package-archive",
               'contextInfo': {
                 'externalAdReply': {
-                  'title': 'RAVEN-BOT',
+                  'title': 'MZAZI-XMD',
                   'body': '' + _0x37a6da.BK9.name,
                   'thumbnailUrl': '' + _0x37a6da.BK9.icon,
                   'sourceUrl': '' + _0x37a6da.BK9.dllink,
@@ -3643,7 +3643,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
               let _0x211981 = fs.readFileSync(_0x401eb2);
               _0x5e9ccc.sendMessage(_0x4be48e.chat, {
                 'image': _0x211981,
-                'caption': "𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗱 𝗯𝘆 𝗥𝗮𝘃𝗲𝗻-𝗕𝗼𝘁"
+                'caption': "𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗱 𝗯𝘆 𝗠𝘇𝗮𝘇𝗶-𝗫𝗺𝗱"
               }, {
                 'quoted': _0x4be48e
               });
@@ -3736,7 +3736,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
             let _0x5c9de4 = _0x47ee10.map(_0x95a39a => _0x95a39a.id);
             _0x4edf32(" Broadcasting in " + _0x5c9de4.length + " Group Chat, in " + _0x5c9de4.length * 1.5 + " seconds");
             for (let _0x1ee493 of _0x5c9de4) {
-              let _0x26536e = "𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧 >\n\n🀄 Message: " + _0x1d9323 + "\n\nAuthor: " + _0x12ae39;
+              let _0x26536e = "𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧 >\n\n🀄 Message: " + _0x1d9323 + "\n\nAuthor: " + _0x12ae39;
               await _0x5e9ccc.sendMessage(_0x1ee493, {
                 'image': {
                   'url': 'https://telegra.ph/file/416c3ae0cfe59be8db011.jpg'
@@ -3751,7 +3751,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
           {
             try {
               if (!_0x1d9323) {
-                return _0x4be48e.reply("This is Raven, an AI using Gemini APIs to process text, provide yr query");
+                return _0x4be48e.reply("This is Mzazi, an AI using Gemini APIs to process text, provide yr query");
               }
               const {
                 default: _0x22fa64
@@ -3817,7 +3817,7 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
               throw "𝗧𝗮𝗴 𝘀𝗼𝗺𝗲𝗼𝗻𝗲!";
             }
             let _0x365ef8 = _0x4be48e.mentionedJid[0x0] ? _0x4be48e.mentionedJid[0x0] : _0x4be48e.quoted ? _0x4be48e.quoted.sender : _0x1d9323.replace(/[^0-9]/g, '') + "@s.whatsapp.net";
-            if (_0x365ef8 == "254114660061@s.whatsapp.net") {
+            if (_0x365ef8 == "254741388986@s.whatsapp.net") {
               return _0x4be48e.reply("𝗜 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗹𝗼𝗰𝗸 𝗺𝘆 𝗢𝘄𝗻𝗲𝗿 😡");
             }
             if (_0x365ef8 == _0x5e9ccc.decodeJid(_0x5e9ccc.user.id)) {
@@ -3960,9 +3960,9 @@ module.exports = mzazi = async (_0x5e9ccc, _0x4be48e, _0x5990ad, _0x4ebbbb) => {
                 return;
               }
               if (_0x372e98 || _0x1f45f8 && !_0x4be48e.isGroup) {
-                console.log(chalk.black(chalk.bgRed("[ ERROR ]")), !_0x4f0c(0x469) ? chalk.green(_0x4f0c(0x3d2)) : chalk.keyword("turquoise")("command"), !_0x4f0c(0x469) ? chalk.green('' + prefix + _0x312252) : chalk.keyword("turquoise")('' + prefix + _0x312252), chalk.keyword('turquoise')('Raven'));
+                console.log(chalk.black(chalk.bgRed("[ ERROR ]")), !_0x4f0c(0x469) ? chalk.green(_0x4f0c(0x3d2)) : chalk.keyword("turquoise")("command"), !_0x4f0c(0x469) ? chalk.green('' + prefix + _0x312252) : chalk.keyword("turquoise")('' + prefix + _0x312252), chalk.keyword('turquoise')('Mzazi'));
               } else if (_0x372e98 || _0x1f45f8 && _0x4be48e.isGroup) {
-                console.log(chalk.black(chalk.bgRed("[ ERROR ]")), !_0x4f0c(0x469) ? chalk.green(_0x4f0c(0x3d2)) : chalk.keyword("turquoise")("command"), !_0x4f0c(0x469) ? chalk.green('' + prefix + _0x312252) : chalk.keyword("turquoise")('' + prefix + _0x312252), !_0x4f0c(0x469) ? chalk.green(_0x4f0c(0x319)) : chalk.keyword("turquoise")("Raven"));
+                console.log(chalk.black(chalk.bgRed("[ ERROR ]")), !_0x4f0c(0x469) ? chalk.green(_0x4f0c(0x3d2)) : chalk.keyword("turquoise")("command"), !_0x4f0c(0x469) ? chalk.green('' + prefix + _0x312252) : chalk.keyword("turquoise")('' + prefix + _0x312252), !_0x4f0c(0x469) ? chalk.green(_0x4f0c(0x319)) : chalk.keyword("turquoise")("Mzazi"));
               }
             }
           }
