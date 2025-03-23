@@ -356,12 +356,12 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
 let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╭═════〘 𝐌𝐙𝐀𝐙𝐈-𝐗𝐌𝐃 〙═════╮
 ┃✫╭═─────────────────═╮
 ┃✬│ 𝗨𝘀𝗲𝗿 : ${m.pushName}
-┃✬│ 𝗢𝘄𝗻𝗲𝗿 : 𝗠𝗭𝗔𝗭𝗜-𝗡𝗘𝗧 𝗧𝗘𝗖𝗛 𝗞𝗘𝗡𝗬𝗔
+┃✬│ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : 𝗠𝗭𝗔𝗭𝗜-𝗡𝗘𝗧 𝗧𝗘𝗖𝗛 𝗞𝗘𝗡𝗬𝗔
 ┃✫│ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}
 ┃✫│ 𝗠𝗼𝗱𝗲 : ${mode}
 ┃✯│ 𝗦𝗽𝗲𝗲𝗱 :   ${dreadedspeed.toFixed(4)} 𝗠𝘀
 ┃✬│ 𝗧𝗶𝗺𝗲 : ${getCurrentTimeInNairobi()} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}
-┃✫│ 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗥𝗔𝗠 : 32𝗚𝗕 𝗼𝗳 64𝗚𝗕
+┃✫│ 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗥𝗔𝗠 : 76𝗚𝗕 𝗼𝗳 256𝗚𝗕
 ┃✫│═════════════════════
 ┃✬│█▀██████▀█▀██▀███▄█▀█
 ┃✫│═════════════════════
@@ -581,7 +581,7 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/duv8ac.jpg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/A08nrWx.jpeg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
