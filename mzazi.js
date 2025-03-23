@@ -76,7 +76,7 @@ module.exports = mzazi = async (client, m, chatUpdate, store) => {
 
     const cmd = body.startsWith(prefix);
     const badword = bad.split(",");
-    const Owner = DevRaven.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
+    const Owner = DevMzazi.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
     
     // Group
    
