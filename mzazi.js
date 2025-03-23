@@ -350,7 +350,7 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
 
     if (cmd) {
       switch (command) {
-        case "mzazi":
+        case "mzazi": case "menu":
 		      await mp3d ()
 		      
 let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╭═════〘 𝐌𝐙𝐀𝐙𝐈-𝐗𝐌𝐃 〙═════╮
