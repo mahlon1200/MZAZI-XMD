@@ -261,11 +261,11 @@ if (antitag === 'TRUE' && !Owner && isBotAdmin && !isAdmin && m.mentionedJid && 
 	  
 async function loading () {
 var lod = [
-"𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗",
-"𝗦𝗣𝗘𝗘𝗗",
-"𝗧𝗘𝗦𝗧🤩",	
-	"✅",
-"𝗦𝗽𝗲𝗲𝗱𝗧𝗲𝘀𝘁 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲!"	
+"🖕",
+"🖐️",
+"🤩",	
+	"😂",
+"𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗 𝗦𝗽𝗲𝗲𝗱𝗧𝗲𝘀𝘁 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲!"	
 ]
 let { key } = await client.sendMessage(from, {text: '𝗣𝗼𝗻𝗴'})
 
@@ -588,10 +588,10 @@ client.sendMessage(m.chat, {
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧`,
+                                title: `𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗`,
                                 body: `${runtime(process.uptime())}`,
-                                thumbnail: fs.readFileSync('./Media/Raven.jpg'),
-                                sourceUrl: 'https://wa.me/254114660061?text=Hello👋+Nick+Nihostie+Bot+Mkuu+😔',
+                                thumbnail: fs.readFileSync('./Media/Mzazi.jpg'),
+                                sourceUrl: 'https://wa.me/254741388986?text=Hello👋+Mzazi+Nihostie+Bot+Mkuu+😔',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -655,7 +655,7 @@ break;
                 {
                     document: { url: audioUrl },
                     mimetype: "audio/mpeg",
-		    caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+		    caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗",
                     fileName: `${title}.mp3`,
                 },
                 { quoted: m }
@@ -706,7 +706,7 @@ await client.sendMessage(
         {
           document: { url: audioData.downloadUrl },
           mimetype: "audio/mp3",
-	  caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+	  caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗",
           fileName: `${audioData.title.replace(/[^a-zA-Z0-9 ]/g, "")}.mp3`,
         },
         { quoted: m }
@@ -767,7 +767,7 @@ const fetch = require("node-fetch");
         {
           video: { url: videoData.downloadUrl },
           mimetype: "video/mp4",
-          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗",
         },
         { quoted: m }
       );
@@ -799,7 +799,7 @@ const fetch = require("node-fetch");
                     `https://api.heroku.com/apps/${appname}/builds`,
                     {
                         source_blob: {
-                            url: "https://github.com/HunterNick2/RAVEN-BOT/tarball/main",
+                            url: "https://github.com/TeddyDommie/MZAZI-XMD/tarball/main",
                         },
                     },
                     {
@@ -810,7 +810,7 @@ const fetch = require("node-fetch");
                     }
                 );
 
-                await m.reply("Your bot is undergoing a ruthless upgrade, hold tight for the next 2 minutes as the redeploy executes! Once done, you’ll have the freshest version of *RAVEN-BOT* unleashed upon you.");
+                await m.reply("Your bot is undergoing a ruthless upgrade, hold tight for the next 2 minutes as the redeploy executes! Once done, you’ll have the freshest version of *MZAZI-XMD* unleashed upon you.");
                 console.log("Build details:", response.data);
             } catch (error) {
                 const errorMessage = error.response?.data || error.message;
@@ -898,7 +898,7 @@ const path = require("path");
                 {
                   document: { url: outputPath },
                   mimetype: "audio/mp3",
-		  caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+		  caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗",
                   fileName: outputFileName,
                 },
                 { quoted: m }
