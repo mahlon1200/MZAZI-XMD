@@ -2231,7 +2231,7 @@ m.reply("An error occured.")
           externalAdReply: {
           title: "𝗛𝗶 𝘆𝗼𝘂👋, 𝗜 𝗮𝗺 𝗔𝗹𝗶𝘃𝗲 𝗮𝗹𝗹 𝘁𝗵𝗲 𝘁𝗶𝗺𝗲😂",
           body: "𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗",
-          thumbnailUrl: "https://files.catbox.moe/7f98vp.jpg",
+          thumbnailUrl: "https://i.imgur.com/A08nrWx.jpeg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
@@ -3019,7 +3019,7 @@ const title = data.result.title;
 		      
  case 'sc': case 'script': case 'repo':
 
- client.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/416c3ae0cfe59be8db011.jpg` }, caption: 
+ client.sendMessage(m.chat, { image: { url: `https://i.imgur.com/A08nrWx.jpeg` }, caption: 
 ` Hello👋 *${pushname}*,You can deploy 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗 using the GitHub link below 𓅂\n\nFork and give us a star✨.\n\n https://github.com/TeddyDommie/MZAZI-XMD\n\nLink with your whatsapp using pairing link below\n\nhttps://mzazi-xmd-cjp7.onrender.com/\n\nCopy the session_id and Fill in the required Variables before Deploy\n\nEnjoy and have fun with ░𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗░\n\n𝗠𝗮𝗱𝗲 𝗶𝗻 𝗞𝗲𝗻𝘆𝗮 𝗯𝘆 𝗠𝗭𝗔𝗭𝗜!\n\n𝗜𝗳 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱 𝘁𝗼 𝗯𝗲 𝗱𝗲𝗽𝗹𝗼𝘆𝗲𝗱 𝘁𝗲𝘅𝘁 𝗺𝗲 𝗼𝗻 +254741388986 𝗼𝗿 𝘁𝗲𝘅𝘁 𝘆𝗼𝘂𝗿 𝗳𝗮𝘃𝗼𝘂𝗿𝗶𝘁𝗲 𝗱𝗲𝗽𝗹𝗼𝘆𝗲𝗿\n\n© 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗠𝗭𝗔𝗭𝗜 `},{quoted : m });
 
    break;
@@ -3597,7 +3597,7 @@ break;
                             showAdAttribution: true,
                             title: '𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗',
                             body: 'https://chat.whatsapp.com/DefN96lXQ4i5iO1wDDeu2C',
-                            thumbnailUrl: 'https://i.imgur.com/YpHG3eT.jpeg',
+                            thumbnailUrl: 'https://i.imgur.com/A08nrWx.jpeg',
                             sourceUrl: 'https://chat.whatsapp.com/DefN96lXQ4i5iO1wDDeu2C',
                             mediaType: 1,
                             renderLargerThumbnail: true
