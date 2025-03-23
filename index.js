@@ -203,11 +203,11 @@ async function startMzazi() {
         startMzazi();
       }
     } else if (connection === "open") {
-      await client.groupAcceptInvite("DefN96lXQ4i5iO1wDDeu2C");
+      await client.groupAcceptInvite("G9Ac2ynbbdZLYKIjaxtBK2");
       console.log(color("Congrats, MZAZI-XMD has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Nick_hunter9", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `𝗕𝗼𝘁 𝗵𝗮𝘀 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 » » »【𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗】 ` });
+      client.sendMessage(client.user.id, { text: `> 𝗕𝗼𝘁 𝗶𝘀 𝗼𝗻𝗹𝗶𝗻𝗲【𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗】𝗶𝗳 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱 𝗮𝗻𝘆 𝗵𝗲𝗹𝗽, 𝘁𝗲𝘀𝘁 𝗺𝗲 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 +254741388986 𝗼𝗿 𝗮𝗻𝘆 𝗶𝘀𝘀𝘂𝗲 ` });
     }
   });
 
