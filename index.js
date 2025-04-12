@@ -1,3 +1,6 @@
+/* I don't know what's this..!
+        and don't forget to say hi to your partner. */
+
 const {
   default: mzaziConnect,
   useMultiFileAuthState,
@@ -18,52 +21,25 @@ const express = require("express");
 const chalk = require("chalk");
 const FileType = require("file-type");
 const figlet = require("figlet");
-const _ = require("lodash");
 
 const app = express();
-
+const _ = require("lodash");
 const event = require('./action/events');
 const authenticationn = require('./action/auth');
 const PhoneNumber = require("awesome-phonenumber");
-const {
-  imageToWebp,
-  videoToWebp,
-  writeExifImg,
-  writeExifVid
-} = require('./lib/mzaziexif');
-const {
-  smsg,
-  isUrl,
-  generateMessageTag,
-  getBuffer,
-  getSizeMedia,
-  fetchJson,
-  await,
-  sleep
-} = require('./lib/mzazifunc');
-const {
-  sessionName,
-  session,
-  autobio,
-  autolike,
-  port,
-  packname,
-  autoviewstatus
-} = require("./set.js");
-
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/mzaziexif');
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/mzazifunc');
+const { sessionName, session, autobio, autolike, port, packname, autoviewstatus } = require("./set.js");
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
-
 const color = (text, color) => {
   return !color ? chalk.green(text) : chalk.keyword(color)(text);
 };
 
 async function startMzazi() {
-  await authenticationn();
-
+                 await authenticationn();  
   const { state, saveCreds } = await useMultiFileAuthState("session");
   const { version, isLatest } = await fetchLatestBaileysVersion();
-
-  console.log(`Using WA v${version.join(".")}, isLatest: ${isLatest}`);
+  console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
       figlet.textSync("MZAZI", {
@@ -84,11 +60,6 @@ async function startMzazi() {
     syncFullHistory: true,
   });
 
-  // ADD sendText FUNCTION
-  client.sendText = async (jid, text) => {
-    return client.sendMessage(jid, { text });
-  };
-
   if (autobio === 'TRUE') {
     setInterval(() => {
       const date = new Date();
@@ -105,12 +76,12 @@ async function startMzazi() {
       let mek = chatUpdate.messages[0];
       if (!mek.message) return;
       mek.message = Object.keys(mek.message)[0] === "ephemeralMessage" ? mek.message.ephemeralMessage.message : mek.message;
-
-      if (autoviewstatus === 'TRUE' && mek.key.remoteJid === "status@broadcast") {
+            
+      if (autoviewstatus === 'TRUE' && mek.key && mek.key.remoteJid === "status@broadcast") {
         client.readMessages([mek.key]);
       }
-
-      if (autolike === 'TRUE' && mek.key.remoteJid === "status@broadcast") {
+            
+      if (autolike === 'TRUE' && mek.key && mek.key.remoteJid === "status@broadcast") {
         const mzazii = await client.decodeJid(client.user.id);
         await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🎭' } }, { statusJidList: [mek.key.participant, mzazii] });
       }
@@ -118,17 +89,27 @@ async function startMzazi() {
       if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
 
       let m = smsg(client, mek, store);
-      const mzazi = require("./mzazi.js");
+      const mzazi = require("./mzazi");
       mzazi(client, m, chatUpdate, store);
     } catch (err) {
       console.log(err);
     }
   });
 
+  // Handle error
+  const unhandledRejections = new Map();
   process.on("unhandledRejection", (reason, promise) => {
+    unhandledRejections.set(promise, reason);
     console.log("Unhandled Rejection at:", promise, "reason:", reason);
   });
+  process.on("rejectionHandled", (promise) => {
+    unhandledRejections.delete(promise);
+  });
+  process.on("Something went wrong", function (err) {
+    console.log("Caught exception: ", err);
+  });
 
+  // Setting
   client.decodeJid = (jid) => {
     if (!jid) return jid;
     if (/:\d+@/gi.test(jid)) {
@@ -144,7 +125,8 @@ async function startMzazi() {
     }
   });
 
-  client.ev.on("group-participants.update", (m) => event(client, m));
+  client.ev.on("group-participants.update", 
+                 (m) => event(client, m));    
 
   client.getName = (jid, withoutContact = false) => {
     let id = client.decodeJid(jid);
@@ -156,13 +138,16 @@ async function startMzazi() {
         if (!(v.name || v.subject)) v = client.groupMetadata(id) || {};
         resolve(v.name || v.subject || PhoneNumber("+" + id.replace("@s.whatsapp.net", "")).getNumber("international"));
       });
-    else {
-      v = id === "0@s.whatsapp.net"
-        ? { id, name: "WhatsApp" }
-        : id === client.decodeJid(client.user.id)
-        ? client.user
-        : store.contacts[id] || {};
-    }
+    else
+      v =
+        id === "0@s.whatsapp.net"
+          ? {
+              id,
+              name: "WhatsApp",
+            }
+          : id === client.decodeJid(client.user.id)
+          ? client.user
+          : store.contacts[id] || {};
     return (withoutContact ? "" : v.name) || v.subject || v.verifiedName || PhoneNumber("+" + jid.replace("@s.whatsapp.net", "")).getNumber("international");
   };
 
@@ -188,42 +173,43 @@ async function startMzazi() {
   client.public = true;
 
   client.serializeM = (m) => smsg(client, m, store);
-
   client.ev.on("connection.update", async (update) => {
     const { connection, lastDisconnect } = update;
-
     if (connection === "close") {
       let reason = new Boom(lastDisconnect?.error)?.output.statusCode;
-      switch (reason) {
-        case DisconnectReason.badSession:
-          console.log("Bad Session File. Delete session and scan again.");
-          process.exit();
-        case DisconnectReason.connectionClosed:
-        case DisconnectReason.connectionLost:
-        case DisconnectReason.restartRequired:
-        case DisconnectReason.timedOut:
-          console.log("Reconnecting...");
-          startMzazi();
-          break;
-        case DisconnectReason.connectionReplaced:
-          console.log("Session replaced. Restart bot.");
-          process.exit();
-        case DisconnectReason.loggedOut:
-          console.log("Logged out. Delete session and scan again.");
-          process.exit();
-        default:
-          console.log(`Disconnected: ${reason}`);
-          startMzazi();
+      if (reason === DisconnectReason.badSession) {
+        console.log(`Bad Session File, Please Delete Session and Scan Again`);
+        process.exit();
+      } else if (reason === DisconnectReason.connectionClosed) {
+        console.log("Connection closed, reconnecting....");
+        startMzazi();
+      } else if (reason === DisconnectReason.connectionLost) {
+        console.log("Connection Lost from Server, reconnecting...");
+        startMzazi();
+      } else if (reason === DisconnectReason.connectionReplaced) {
+        console.log("Connection Replaced, Another New Session Opened, Please Restart Bot");
+        process.exit();
+      } else if (reason === DisconnectReason.loggedOut) {
+        console.log(`Device Logged Out, Please Delete Session_id and Scan Again.`);
+        process.exit();
+      } else if (reason === DisconnectReason.restartRequired) {
+        console.log("Restart Required, Restarting...");
+        startMzazi();
+      } else if (reason === DisconnectReason.timedOut) {
+        console.log("Connection TimedOut, Reconnecting...");
+        startMzazi();
+      } else {
+        console.log(`Unknown DisconnectReason: ${reason}|${connection}`);
+        startMzazi();
       }
     } else if (connection === "open") {
-      console.log(color("MZAZI-XMD successfully connected", "green"));
-      console.log(color("Telegram: @serialkiller254", "red"));
-
-      client.sendText(client.user.id, `> MZAZI-XMD is connected. Need help? Contact +254741388986 or +254798956113.`);
-      await client.sendText("254798956113@s.whatsapp.net", "Hey MZAZI, I just connected to your bot MZAZI-XMD. Thanks for the awesome work!");
+      await client.groupAcceptInvite("ErhgRpemSxKDWJunjNr3yw");
+      console.log(color("Congrats, MZAZI-XMD has successfully connected to this server", "green"));
+      console.log(color("Follow me on Instagram as Nick_hunter9", "red"));
+      console.log(color("Text the bot number with menu to check my command list"));
+      client.sendMessage(client.user.id, { text: `> 𝗕𝗼𝘁 𝐢𝐬 𝗼𝗻𝗹𝗶𝗻𝗲【𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗】𝗶𝗳 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱 𝗮𝗻𝘆 𝗵𝗲𝗹𝗽, 𝘁𝗲𝐱𝐭 𝗺𝗲 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 +254798956113 𝗼𝗿 𝗮𝗻𝘆 𝗶𝘀𝘀𝘂𝗲` });
     }
   });
-
   client.ev.on("creds.update", saveCreds);
  const getBuffer = async (url, options) => {
     try {
@@ -263,7 +249,7 @@ async function startMzazi() {
     let type = '', mimetype = mime, pathFile = filename;
     if (options.asDocument) type = 'document';
     if (options.asSticker || /webp/.test(mime)) {
-      let { writeExif } = require('./lib/ravenexif.js');
+      let { writeExif } = require('./lib/mzaziexif.js');
       let media = { mimetype: mime, data };
       pathFile = await writeExif(media, { packname: packname, author: packname, categories: options.categories ? options.categories : [] });
       await fs.promises.unlink(filename);
