@@ -14,6 +14,7 @@ const appname = process.env.APP_NAME || '';
 const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'FALSE';
 const mode = process.env.MODE || 'PUBLIC';
+const antidel = process.env.ANTIDELETE || 'TRUE';
 
 const botname = process.env.BOTNAME || '𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗';
 const antibot = process.env.ANTIBOT || 'FALSE';
@@ -40,6 +41,7 @@ const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
 module.exports = {
   session,
+  antidel,
   sessionName,
   autobio,
   author,
