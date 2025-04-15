@@ -142,7 +142,7 @@
 },
  "MENU_TYPE": {
       "description": "Input either VIDEO, LINK or IMAGE. This will allow bot to display different dynamic menu types",
-   "value": "Link",
+   "value": "LINK",
       "required": false
 
     
