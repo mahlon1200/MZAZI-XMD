@@ -22,6 +22,7 @@ const chalk = require("chalk");
 const FileType = require("file-type");
 const figlet = require("figlet");
 
+
 const app = express();
 const _ = require("lodash");
 const event = require('./action/events');
@@ -301,6 +302,13 @@ async function startMzazi() {
     }
     return buffer;
   };
+        
+ client.ev.on('messages.reaction', async (reaction) => {
+  console.log("Reaction received:", reaction);
+
+  // optional: send a test message
+  await client.sendMessage(m.chat, { text: `You reacted with ${reaction.text}` });
+});
 
   client.downloadAndSaveMediaMessage = async (message, filename, attachExtension = true) => {
     let quoted = message.msg ? message.msg : message;
@@ -347,7 +355,9 @@ async function startMzazi() {
 
   return client;
 }
+//======================================================/
 
+//==========================================================================//
 app.use(express.static("pixel"));
 app.get("/", (req, res) => res.sendFile(__dirname + "/index.html"));
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));

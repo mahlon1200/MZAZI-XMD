@@ -34,7 +34,11 @@
       "value": "Owner Only",
       "required": false
     },
-    
+    "AUTOREJECT_CALL": {
+      "description": "Put TRUE if you want bot to decline all incoming calls",
+      "required": false,
+      "value": "TRUE"
+    },
     
     "BOT_ADMIN_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not admin!",
@@ -57,7 +61,7 @@
     },
     "BAD_WORD_KICK": {
       "description": "Put here TRUE if you want the bot to automatically kick group members using words that you have listed as bad",
-      "value": "FALSE",
+      "value": "false",
       "required": false
     },
     "GROUP_ONLY_MSG": {
@@ -67,12 +71,12 @@
     },
       "AUTOREAD": {
       "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
-        "value": "FALSE",
+        "value": "False",
       "required": true
 },
  "AUTOVIEW": {
       "description": "Input TRUE if you want bot to automatically read status update",
-   "value": "TRUE",
+   "value": "True",
       "required": true
 },
  "WA_PRESENCE": {
@@ -88,17 +92,17 @@
    
  "ANTILINK": {
       "description": "Input TRUE if you want bot to kick link senders",
-   "value": "TRUE",
+   "value": "true",
       "required": true
 },
  "ANTILINK_ALL": {
       "description": "Input TRUE if you want bot to kick users sending any links.",
-   "value": "TRUE",
+   "value": "true",
       "required": true
 },
  "ANTIBOT": {
       "description": "Input TRUE if you want bot to kick other bots from group",
-   "value": "TRUE",
+   "value": "true",
       "required": false
 },
  "CODE": {
@@ -112,13 +116,13 @@
 },
  "MODE": {
       "description": "Input PRIVATE if you don't want other people to use your bot",
-   "value": "PUBLIC",
+   "value": "Public",
       "required": true
     },
     
  "AUTOBIO": {
       "description": "Input TRUE if you want bot to autoupdate its about with current time and date.",
-   "value": "TRUE",
+   "value": "true",
       "required": false
 },
  "APP_NAME": {
@@ -137,23 +141,19 @@
 },
  "GPT_INBOX": {
       "description": "Input TRUE if you want bot to autoreply inbox messages using openai API.",
-   "value": "FALSE",
+   "value": "false",
       "required": false
 },
  "MENU_TYPE": {
       "description": "Input either VIDEO, LINK or IMAGE. This will allow bot to display different dynamic menu types",
-   "value": "LINK",
+   "value": "Link",
       "required": false
-
-    
-    
-    },
+ },
     "AUTOLIKE_STATUS": {
-      "description": "input TRUE if you want bot to autolike status updates. This will only work if autostatus view is TRUE",
-      "value": "TRUE",
+      "description": "Type true if you want bot to automatically like status updates, this will only work if AUTOVIEW_STATUS is true.",
+         "value": "TRUE",
       "required": false
-    }
-  },
+    },
   "buildpacks": [
     {
       "url": "heroku/nodejs"
