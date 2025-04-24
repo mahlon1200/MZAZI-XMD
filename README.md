@@ -1,7 +1,7 @@
 
-# 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗-test
+# 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THIS+IS+MZAZI-XMD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+MZAZI;PUBLIC+RELEASED; ...;TEAM MZAZI-XMD." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THIS  IS+MZAZI-XMD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+MZAZI;PUBLIC+RELEASED; ...;TEAM MZAZI-XMD." alt="Typing SVG" /></a>
   </p>
   
 <p align="center">
@@ -40,7 +40,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 ## ` Fork this repo`
 <p align="centre">
-<a href="https://github.com/TeddyDommie/MZAZI-XMD-TRIAL/fork"><img src="https://img.shields.io/badge/Fork%20Create-purple?style=for-the-badge&logo=github" alt="FORK 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗" width="160"></a>
+<a href="https://github.com/TeddyDommie/MZAZI-XMD/fork"><img src="https://img.shields.io/badge/Fork%20Create-purple?style=for-the-badge&logo=github" alt="FORK 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗" width="160"></a>
 <p/>
   
 Linking/Pairing:
@@ -48,7 +48,11 @@ Linking/Pairing:
 <p align="centre">
 <a href="https://mzazi-xmd-session-1.onrender.com"><img height= "37" title="Author" src="https://img.shields.io/badge/Session-pink?style=for-the-badge&logo=render"></a>
 <p/>
-            
+
+### 𝗜𝗙 𝗧𝗛𝗘 𝗙𝗜𝗥𝗦𝗧 𝗜𝗦 𝗦𝗟𝗢𝗪 𝗨𝗦𝗘 𝗧𝗛𝗜𝗦
+<p align="centre">
+<a href="https://mzazi-xmd-session-2.onrender.com"><img height= "37" title="Author" src="https://img.shields.io/badge/Session-pink?style=for-the-badge&logo=render"></a>
+<p/>            
 
 ###  𝗗𝗘𝗣𝗟𝗢𝗬 𝗢𝗡 𝗛𝗘𝗥𝗢𝗞𝗨:
 
