@@ -5,13 +5,6 @@
 <p align="center">                                              𝐌𝐙𝐀𝐙𝐈-𝐗𝐌𝐃
 
 
-</p>
-<p align="center"> 
-  <a href="[https](https://whatsapp.com/channel/0029Vb7pEw24Crfinj6SfU2b">
-    <img alt=Support height="390" 
-    </p>
- 
- 
 
 </p>
 <p align="center"> 
