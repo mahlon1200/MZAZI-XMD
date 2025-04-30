@@ -20,7 +20,10 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines= MADE+IN+KENYA+BY+MZAZI" alt="Typing SVG" /></a>
  
 
+<p align="center">
 
+[![MZAZI-NET TECH KENYA](https://github.com/TeddyDommie.png?lenght=50width=50)](https://github.com/TeddyDommie)
+</p>
 
 <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-𝗠𝗭𝗔𝗭𝗜-blue.svg?style=for-the-badge&logo=github"></a>
