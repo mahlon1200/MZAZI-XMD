@@ -10,7 +10,7 @@
 <p align="center"> 
   <a href="https://whatsapp.com/channel/0029VajQn6YF1YlPE0XgBC2m">
     
- <a><img 
+
 
  
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=500&height=60&lines=WELCOME+TO+MZAZI-XMD!)](https://git.io/typing-svg)
