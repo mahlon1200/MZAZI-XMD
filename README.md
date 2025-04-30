@@ -1,9 +1,33 @@
 
-# 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗
-<div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THIS  IS+MZAZI-XMD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+MZAZI;PUBLIC+RELEASED; ...;TEAM MZAZI-XMD." alt="Typing SVG" /></a>
-  </p>
-  
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+
+<p align="center">                                              𝐌𝐙𝐀𝐙𝐈-𝐗𝐌𝐃
+
+
+</p>
+<p align="center"> 
+  <a href="[https](https://whatsapp.com/channel/0029Vb7pEw24Crfinj6SfU2b">
+    <img alt=Support height="390" src="https://files.catbox.moe/zflj5d.jpg"> 
+    </p>
+ 
+ 
+
+</p>
+<p align="center"> 
+  <a href="https://whatsapp.com/channel/0029VajQn6YF1YlPE0XgBC2m">
+    
+ <a><img src='[https://files.catbox.moe/zflj5d.jpg]'/></a>
+
+ 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=500&height=60&lines=WELCOME+TO+MZAZI-XMD!)](https://git.io/typing-svg)
+
+   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=FORK+AND+MAYBE+GIVE+ME+A+STAR)](https://git.io/typing-svg)
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines= MADE+IN+KENYA+BY+MZAZI" alt="Typing SVG" /></a>
+ 
+
+<a><img src='[https://files.catbox.moe/zflj5d.jpgf'/></a>
 <p align="center">
 
 [![MZAZI-NET TECH KENYA](https://github.com/TeddyDommie.png?lenght=50width=50)](https://github.com/TeddyDommie)
