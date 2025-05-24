@@ -59,7 +59,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
   
 Linking/Pairing:
 ## ` Pair onrender`
-[![SESSION FOR MZAZI-XMD](https://img.shields.io/badge/_𝗦𝗘𝗦𝗦𝗜𝗢𝗡_(MZAZI-XMD)-E6E6FA?style=for-the-badge&logo=koyeb)](https://mzazi-xmd-session-2.onrender.com)  
+[![SESSION FOR MZAZI-XMD](https://img.shields.io/badge/_𝗦𝗘𝗦𝗦𝗜𝗢𝗡_(MZAZI-XMD)-E6E6FA?style=for-the-badge&logo=koyeb)](https://mzazi.onrender.com)  
 
 ###  𝗗𝗘𝗣𝗟𝗢𝗬 𝗢𝗡 𝗛𝗘𝗥𝗢𝗞𝗨:
 
