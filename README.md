@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/k6IOxbZ.jpeg" width="250" alt="MZAZI-XMD Logo"/>
 </p>
 
-<h1 align="center">𝐌𝐙𝐀𝐙𝐈-𝐗𝐌𝐃</h1>
+<h1 align="center" style="color: #f5f5f5;">𝐌𝐙𝐀𝐙𝐈-𝐗𝐌𝐃</h1>
 
 <p align="center">
   <a href="https://whatsapp.com/channel/0029VajQn6YF1YlPE0XgBC2m">
@@ -27,10 +27,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/TeddyDommie?tab=followers"><img src="https://img.shields.io/github/followers/TeddyDommie?label=Followers&style=social"></a>
-  <a href="https://github.com/TeddyDommie/MZAZI-XMD/stargazers/"><img src="https://img.shields.io/github/stars/TeddyDommie/MZAZI-XMD?&style=social"></a>
-  <a href="https://github.com/TeddyDommie/MZAZI-XMD/network/members"><img src="https://img.shields.io/github/forks/TeddyDommie/MZAZI-XMD?style=social"></a>
-  <a href="https://github.com/TeddyDommie/MZAZI-XMD/watchers"><img src="https://img.shields.io/github/watchers/TeddyDommie/MZAZI-XMD?label=Watching&style=social"></a>
+  <a href="https://github.com/TeddyDommie?tab=followers"><img src="https://img.shields.io/github/followers/TeddyDommie?label=Followers&style=social" alt="Followers"></a>
+  <a href="https://github.com/TeddyDommie/MZAZI-XMD/stargazers/"><img src="https://img.shields.io/github/stars/TeddyDommie/MZAZI-XMD?&style=social" alt="Stars"></a>
+  <a href="https://github.com/TeddyDommie/MZAZI-XMD/network/members"><img src="https://img.shields.io/github/forks/TeddyDommie/MZAZI-XMD?style=social" alt="Forks"></a>
+  <a href="https://github.com/TeddyDommie/MZAZI-XMD/watchers"><img src="https://img.shields.io/github/watchers/TeddyDommie/MZAZI-XMD?label=Watching&style=social" alt="Watchers"></a>
 </p>
 
 ---
@@ -80,9 +80,15 @@
 
 <p align="center">
   <a href="https://api.whatsapp.com/send?phone=254741388986&text=Hello+𝗠𝗭𝗔𝗭𝗜">
-    <img src="https://img.shields.io/badge/Contact 𝗠𝗭𝗔𝗭𝗜༆-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Contact">
+    <img src="https://img.shields.io/badge/Contact%20𝗠𝗭𝗔𝗭𝗜༆-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Contact">
   </a>
 </p>
+
+---
+
+## 🌐 Multilingual Support (Coming Soon)
+
+We are planning to add multilingual support to make MZAZI-XMD more accessible. Stay tuned for future updates!
 
 ---
 
