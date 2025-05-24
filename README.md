@@ -4,33 +4,35 @@
 
 <h1 align="center">🌐 MZAZI-XMD | Multilingual Support</h1>
 
+<p align="center">Select your preferred language below to view the official site:</p>
+
 <p align="center">
-  欢迎 | Bienvenue | Karibu | Welcome | Soo dhawoow | مرحباً
+  <a href="https://english-v.vercel.app/">
+    <img src="https://img.shields.io/badge/English-Version-blue?style=for-the-badge" alt="English">
+  </a>
+  <a href="https://swahili-v.vercel.app/">
+    <img src="https://img.shields.io/badge/Swahili-Version-green?style=for-the-badge" alt="Swahili">
+  </a>
+  <a href="https://somali-v.vercel.app/">
+    <img src="https://img.shields.io/badge/Somali-Version-yellow?style=for-the-badge" alt="Somali">
+  </a>
+  <a href="https://arabic-v.vercel.app/">
+    <img src="https://img.shields.io/badge/Arabic-Version-red?style=for-the-badge" alt="Arabic">
+  </a>
+  <a href="https://french-v.vercel.app/">
+    <img src="https://img.shields.io/badge/French-Version-purple?style=for-the-badge" alt="French">
+  </a>
+  <a href="https://china-v.vercel.app/">
+    <img src="https://img.shields.io/badge/Chinese-Version-orange?style=for-the-badge" alt="Chinese">
+  </a>
 </p>
 
 ---
 
-## 📘 Choose Your Language Version
+## ℹ️ About
 
-MZAZI-XMD is now available in multiple languages! Click on your preferred version below:
-
-| Language       | Link                                                                 |
-|----------------|----------------------------------------------------------------------|
-| **🇨🇳 Chinese**     | [访问中文版本](https://china-v.vercel.app/)                                  |
-| **🇫🇷 French**      | [Voir en Français](https://french-v.vercel.app/)                             |
-| **🇬🇧 English**     | [View in English](https://english-v.vercel.app/)                             |
-| **🇸🇴 Somali**      | [Ku Akhri Af-Soomaali](https://somali-v.vercel.app/)                         |
-| **🇰🇪 Swahili**     | [Soma kwa Kiswahili](https://swahili-v.vercel.app/)                          |
-| **🇸🇦 Arabic**      | [عرض باللغة العربية](https://arabic-v.vercel.app/)                            |
+Each version above offers a localized experience of **MZAZI-XMD**. Feel free to explore in your preferred language.
 
 ---
 
-## 📌 Notes
-
-- All versions are consistent in features and layout.
-- Translations are manually reviewed for clarity.
-- You are welcome to suggest additional languages or corrections via [issues](https://github.com/TeddyDommie/MZAZI-XMD/issues).
-
----
-
-> Made with ❤️ by MZAZI and contributors.
+> Built with passion by MZAZI and contributors.
