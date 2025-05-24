@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/k6IOxbZ.jpeg" width="250" alt="MZAZI-XMD Logo"/>
 </p>
 
-<h1 align="center" style="color: #f5f5f5;">𝐌𝐙𝐀𝐙𝐈-𝐗𝐌𝐃</h1>
+<h1 align="center">𝐌𝐙𝐀𝐙𝐈-𝐗𝐌𝐃</h1>
 
 <p align="center">
   <a href="https://whatsapp.com/channel/0029VajQn6YF1YlPE0XgBC2m">
@@ -37,16 +37,23 @@
 
 ## ✨ Features
 
-- Built with **Node.js**
-- Uses [**Baileys**](https://github.com/whiskeysockets/Baileys) WhatsApp Web API
-- AI-based chat via **OpenAI**
-- Group management tools
+- Built using **Node.js**
+- Uses [**Baileys**](https://github.com/whiskeysockets/Baileys) WhatsApp API
+- Powered by **ChatGPT** (OpenAI API)
+- Group moderation features
 - Media utilities
-- API integration (subject to uptime availability)
+- Dynamic plugin architecture
+- Deployable to Heroku and Render
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Deployment Instructions
+
+### ⚠️ Requirements
+
+> **You must:**
+> - **Fork this repository** and keep it up to date with `TeddyDommie/MZAZI-XMD`
+> - Use a **deployment password** (your GitHub username or `TeddyDommie`)
 
 ### 1. Fork This Repository
 
@@ -72,7 +79,24 @@
   </a>
 </p>
 
-> Make sure to fill all required ENV variables properly on your deployment platform.
+### 4. Provide Environment Variables
+
+When deploying, Heroku will ask for:
+
+- `GITHUB_USERNAME`: Your GitHub username
+- `DEPLOY_PASSWORD`: Your GitHub username or **`TeddyDommie`**
+
+> If `DEPLOY_PASSWORD` is incorrect, the app will terminate during startup for security reasons.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Node.js**
+- **Baileys**
+- **Express.js**
+- **Heroku / Render Hosting**
+- **OpenAI GPT (for Chat)**
 
 ---
 
@@ -86,14 +110,14 @@
 
 ---
 
-## 🌐 Multilingual Support (Coming Soon)
+## 🌍 Multilingual Support (Coming Soon)
 
-We are planning to add multilingual support to make MZAZI-XMD more accessible. Stay tuned for future updates!
+We are working on adding translations for Swahili, French, and more.
 
 ---
 
-## 📄 License
+## 📜 License
 
-This project is licensed under the [MIT License](https://github.com/TeddyDommie/MZAZI-XMD/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/TeddyDommie/MZAZI-XMD/blob/main/LICENSE)
 
 &copy; 2025 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗
