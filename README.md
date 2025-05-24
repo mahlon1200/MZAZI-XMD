@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/k6IOxbZ.jpeg" width="250" alt="MZAZI-XMD Logo"/>
 </p>
 
-<h1 align="center">𝐌𝐙𝐀𝐙𝐈-𝐗𝐌𝐃</h1>
+<h1 align="center">✨ 𝐌𝐙𝐀𝐙𝐈-𝐗𝐌𝐃 ✨</h1>
 
 <p align="center">
   <a href="https://whatsapp.com/channel/0029VajQn6YF1YlPE0XgBC2m">
@@ -49,12 +49,6 @@
 
 ## 🚀 Deployment Instructions
 
-### ⚠️ Requirements
-
-> **You must:**
-> - **Fork this repository** and keep it up to date with `TeddyDommie/MZAZI-XMD`
-> - Use a **deployment password** (your GitHub username or `TeddyDommie`)
-
 ### 1. Fork This Repository
 
 <p align="center">
@@ -81,12 +75,9 @@
 
 ### 4. Provide Environment Variables
 
-When deploying, Heroku will ask for:
-
-- `GITHUB_USERNAME`: Your GitHub username
-- `DEPLOY_PASSWORD`: Your GitHub username or **`TeddyDommie`**
-
-> If `DEPLOY_PASSWORD` is incorrect, the app will terminate during startup for security reasons.
+> During deployment, you’ll need to set:
+> - `GITHUB_USERNAME`: Your GitHub username  
+> - `DEPLOY_PASSWORD`: Any secure password of your choice
 
 ---
 
@@ -112,7 +103,7 @@ When deploying, Heroku will ask for:
 
 ## 🌍 Multilingual Support (Coming Soon)
 
-We are working on adding translations for Swahili, French, and more.
+We're working on adding translations for **Swahili**, **French**, and more!
 
 ---
 
@@ -120,4 +111,37 @@ We are working on adding translations for Swahili, French, and more.
 
 This project is licensed under the [MIT License](https://github.com/TeddyDommie/MZAZI-XMD/blob/main/LICENSE)
 
-&copy; 2025 𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗
+&copy; 2025 **𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗**
+
+---
+
+## ❤️ Vote of Thanks
+
+We would like to express our heartfelt gratitude to the amazing individuals who made **MZAZI-XMD** a reality:
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/TeddyDommie">
+        <img src="https://github.com/TeddyDommie.png" width="80" style="border-radius: 50%" alt="Mzazi"/><br/>
+        <b>Mzazi</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="80" style="border-radius: 50%" alt="James"/><br/>
+        <b>James</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="80" style="border-radius: 50%" alt="Harryken"/><br/>
+        <b>Harryken</b>
+      </a>
+    </td>
+  </tr>
+</table>
+
+> Your dedication, ideas, and encouragement have been the backbone of this project. **Asanteni sana!**
+
+---
